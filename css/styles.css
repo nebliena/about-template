@@ -1,0 +1,135 @@
+/* :root {
+    --font-family-main: 'Metropolis', sans-serif;
+    --color-main: #656565;
+    --color-secondary: #ff5634;
+    --color-background-main: #fafafa;
+    --color-background-secondary: #ffffff;
+    --color-heading: #121212;
+    --font-main-size: ;
+    --font-main-line-height: ;
+    --font-main-style: ;
+    --font-main-letter-spacing: ;
+    --spacer-normal: ;
+    --spacer-big: ;
+    --spacer-small: ;
+    --link-color: ;
+    --link-hover-color: ;
+    --heading-1-font-size: 62px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.section {
+    width: 100%;
+}
+
+.section.header {
+    padding-top: 70px;
+    position: relative;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1270px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.navbar {
+    max-width: 1270px;
+    margin: auto;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1rem;
+}
+
+.nav-item.active .nav-link {
+    color: #007bff;
+}
+
+.custom-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.custom-subheading {
+    font-size: 1.25rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+}
+
+.stats-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.stats-description {
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.section-content {
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+.timeline-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.timeline-content {
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.text-primary {
+    color: #007bff !important;
+}
+
+.text-primary:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 1440px) {
+    .section.hero {
+        padding-bottom: 127px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .section.header {
+        padding-bottom: 152px;
+    }
+}
+ */

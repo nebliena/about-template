@@ -1,0 +1,25 @@
+.button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+
+    &--primary {
+        border: 1px solid $accent-color;
+        background-color: $accent-color;
+        color: $neutral-color;
+        text-align: center;
+        border-radius: 1rem;
+        padding: 1.625rem 2.375rem;
+        font-weight: 700;
+        line-height: 1.111em;
+        transition: color .3s, background-color .3s, border-color .3s;
+
+        &:hover {
+            background-color: $button-hover-color;
+            border-color: $button-hover-color;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+body {
+    font-family: Metropolis, sans-serif;
+    line-height: 1.6;
+    color: $text-color;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.667em;
+    background: $background-primary;
+    background-attachment: scroll !important;
+    min-height: 100%;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.161em;
+    color: $heading-color;
+    margin: 0.67em 0;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 3.875rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 2.75rem;
+    line-height: 1.227em;
+}
+
+h3 {
+    font-size: 1.75rem;
+    line-height: 1.429em;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    margin: 0;
+}
+
+.subheading {
+    text-transform: uppercase;
+    color: $accent-color;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    margin-bottom: 22px;
+}

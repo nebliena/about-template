@@ -1,0 +1,19 @@
+/* Modify Bootstrap default gutters */
+$grid-gutter-width: 1.75rem; 
+$spacer: 5rem; 
+$gutters: ( 
+    0: 0, 
+    1: $spacer * .25,
+    1_5: $spacer * .35,  
+    2: $spacer * .5, 
+    3: $spacer, 
+    4: $spacer * 1.5, 
+    5: $spacer * 3,
+); 
+  
+@each $key, $value in $gutters { 
+    .g-#{$key}{ 
+        --#{$prefix}gutter-x: #{$value}; 
+        --#{$prefix}gutter-y: #{$value}; 
+    } 
+}

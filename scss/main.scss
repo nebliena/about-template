@@ -1,0 +1,19 @@
+/* Import Bootstrap SCSS */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+/* Import Metropolis font */
+@import url('https://fonts.cdnfonts.com/css/metropolis-2');
+
+/* Import all files */
+@import 'base/variables';
+@import 'base/typography';
+@import 'base/mixins';
+@import 'base/mediaqueries';
+@import 'components/buttons';
+@import 'components/spacers';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/navbar';
+@import 'pages/about';
+
