@@ -9407,10 +9407,19 @@ img {
 
 .container {
   width: 100%; }
+  
+  .container-fluid,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl,
+  .container-xxl {
+    padding: 0;
+    margin: 0; }
 
 .section {
   background-color: #ffffff; }
-  .section__alternative {
+  .section.alternative {
     background-color: #fafafa; }
   .section__wrapper {
     max-width: 1270px;

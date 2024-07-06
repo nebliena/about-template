@@ -1,11 +1,16 @@
 .container {
     width: 100%;
+
+    &-fluid {
+        padding: 0;
+        margin: 0;
+    }
 }
 
 .section {
     background-color: $background-primary;
 
-    &__alternative {
+    &.alternative {
         background-color: $background-secondary;
     }
 
