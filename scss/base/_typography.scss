@@ -1,3 +1,33 @@
+
+@font-face {
+    font-family: 'Icons Custom Delivery X Template';
+    src: url('https://assets.website-files.com/61fd4a65725a5325e9bb25c2/62057d57a3e83b1ada339385_icons-custom-delivery-x-template.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Metropolis';
+    src: url('https://assets.website-files.com/61fd4a65725a5325e9bb25c2/61fd5883eb7b567dfe4914fa_Metropolis-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Metropolis';
+    src: url('https://assets.website-files.com/61fd4a65725a5325e9bb25c2/61fd5883349060c66d212ba5_Metropolis-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Metropolis';
+    src: url('https://assets.website-files.com/61fd4a65725a5325e9bb25c2/61fd58847003995593c93fee_Metropolis-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
 body {
     font-family: Metropolis, sans-serif;
     line-height: 1.6;
@@ -40,6 +70,7 @@ h3 {
 
 p {
     margin: 0;
+    color: $text-color;
 }
 
 .subheading {
@@ -48,4 +79,9 @@ p {
     font-weight: 700;
     letter-spacing: 0.06em;
     margin-bottom: 22px;
+}
+
+img {
+    max-width: 100%;
+    display: inline-block;
 }
