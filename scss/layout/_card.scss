@@ -1,0 +1,26 @@
+.card {
+    padding: 60px 53px;
+    border: 1px solid $neutral-color-300;
+    background-color: $neutral-color;
+    box-shadow: 0 2px 12px 0 rgba(16, 16, 16, .08);
+    border-radius: 24px;
+    overflow: hidden;
+
+    .journey {
+        &--timeline {
+            &__year {
+                color: $accent-color;
+                font-size: 22px;
+                font-weight: 700;
+                line-height: 1.273em;
+                margin-bottom: 12px;
+            }
+
+            &__title {
+                font-size: 24px;
+                margin-bottom: 32px;
+            }
+        }
+
+    }
+}
